@@ -4,7 +4,6 @@ import requests
 url = "https://driver-vehicle-licensing.api.gov.uk/vehicle-enquiry/v1/vehicles"
 
 Reg_NUM = input('reg num: ')
-Reg_NUM = Reg_NUM.capitalize()
 payload_response = '{\n\t\"registrationNumber\": \"'+ Reg_NUM + '\"\n}'
 
 
