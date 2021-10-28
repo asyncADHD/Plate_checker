@@ -8,7 +8,7 @@ payload_response = '{\n\t\"registrationNumber\": \"'+ Reg_NUM + '\"\n}'
 
 
 headers = {
-  'x-api-key': 'Y8QRgOO9JB7WY7C1r8Q3K5SC8j0ynLV72jc73RxR',
+  'x-api-key': 'API-key-here',
   'Content-Type': 'application/json'
 }
 
